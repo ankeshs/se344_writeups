@@ -1,0 +1,59 @@
+\documentclass[pdftex,12pt,a4paper]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{draftcopy}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{algorithm2e}
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection} }
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[LE,LO]{\footnotesize{
+SE344, Chemistry and Our Environment
+}
+}
+
+\title{\vspace{-15pt}Laboratory Storage of Chemicals\\ SE344: Chemistry and Our Environment}
+\author{Ankesh Kumar Singh (Y9090)}
+\date{21st March, 2013}
+\begin{document}
+\maketitle
+\begin{tabular}{p{370pt}}
+\textbf{Keywords: }
+\end{tabular}
+\vspace{10pt}\\
+\hrule
+\vspace{10pt}
+Many liquids are stored in bottles with pressure releasing caps. Formic acid degenerates in presence of mild heat, sunlight, metal ion catalyst and converts into CO$_2$ and H$_2$O. These gases do not have considerable solubility and therefore pressure builds up and bottle may explode. It is also recommended that such a chemical is stored in polyurethane bottle that must be impervious to that specific chemical. It does not matter how chemicals are stored, it must be done in a manner it is not harmful to person using it. Hazardous substances must also be locked in a store, with no unsupervised student access. Storage is based on dangerous goods classification.
+
+Chemical storage needs special type of refrigerators with a design different from that used for domestic purpose. The lamp for chemical storage refrigerator is outside, so that vapors from flammable chemicals do not come in contact of hot lamp. There are also separate cabinets for flammable chemicals.
+
+Substances must be stored in accordance with the magnitude of dangerous nature of substance. Dangerous goods classification is different from hazardous goods classification as it does not consider adverse effects from long term exposure. Substances may be both hazardous and dangerous. For example, di-ethyl ether is both a carcinogen as well as a flammable liquid. A substance like KCN is highly toxic and every milligram used in laboratoty needs to be accounted for. Also after reactions, to needs to be quenched with FeSO$_4$.
+\begin{center}
+\begin{tabular}{lll}
+FeSO$_4$ + 2 KCN &$\rightarrow$&FeCN$_2$ + K$_2$SO$_4$\\
+FeCN$_2$ + 4 KCN &$\rightarrow$&K$_4$[Fe(CN)$_6$]\\
+\hline
+FeSO$_4$ + 6 KCN &$\rightarrow$&K$_4$[Fe(CN)$_6$] + K$_2$SO$_4$\\
+\hline
+\end{tabular}
+\end{center}
+On the basis of threat they pose, chemicals are classified into several classes.
+\begin{tabular}{p{55pt}p{350pt}}
+Class 1. Explosives& Explosives pose a major hazard because of the destruction to people and property caused by their detonation. An explosive, on detonation, undergoes a rapid chemical change with the production of a large gas volume relative to the volume of explosive. It is this rapidly expanding pressure wave that produces the devastating destruction characteristic of explosives. Explosives include: explosive substances, pyrotechnic substances and explosive articles.\\
+Class 2. Gases & Gases pose a hazard because of their ability to diffuse over a large volume to exert a flammable, asphyxiating, toxic or oxidising effect.
+A gas is defined as a dangerous good if at 50$^o$C has a vapour pressure greater than 300 kPa, or it is completely gaseous at 20$^o$C at standard pressure (101.3 kPa).\\
+Class 3. Flammable Liquids & Flammable liquids are liquids which are capable of being ignited and burned. They may also be mixtures of liquids, containing solids in solution or suspension (eg. paints).\\
+Class 4. Flammable Solids& Flammable solids are solids that, under conditions encountered in transport, are readily combustible or may cause or contribute to fire through friction. They can also be a powder or paste. An added danger can be from toxic combustion products. eg. metal powders, naphthalene.\\
+Class 5. Oxidising substances&Oxidising substances and organic peroxide pose a hazard because of their ability to chemically oxidise matter, including living tissue. Strong oxidisers can greatly enhance the flammability of material with the production of heat, fire, and dangerous reaction products.
+\end{tabular}
+\\
+
+Other classes of chemicals are toxic and infectious substances, radioactive materials, corrosives and miscellaneous dangerous substances.
+\end{document}
